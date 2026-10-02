@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missão Espacial: O Destino</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- TELA INICIAL -->
+        <section id="tela-inicial" class="tela">
+            <h1>Missão I: A Travessia Estelar</h1>
+            <p>Embarque nesta jornada desafiadora onde cada escolha conta.</p>
+            <button id="btn-iniciar">Entrar na Missão</button>
+        </section>
+
+        <!-- TELA DO JOGO -->
+        <section id="tela-jogo" class="tela escondido">
+            <h2 id="enunciado"></h2>
+            <div id="opcoes-container"></div>
+        </section>
+
+        <!-- TELA FINAL -->
+        <section id="tela-final" class="tela escondido">
+            <h2>Fim da Jornada!</h2>
+            <p id="resultado-texto"></p>
+            <button id="btn-reiniciar">Jogar Novamente</button>
+        </section>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
+
+
